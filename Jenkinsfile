@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git 'https://github.com/yourname/cucumber-selenium-sample.git'
+        git 'https://github.com/RamyajitBrahma/JenkinsCucumberSampleEC2.git'
       }
     }
     stage('Build & Test') {
